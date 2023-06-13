@@ -283,6 +283,7 @@ namespace Tic_Tac_Toe_Game
                     Console.Clear();
                     Console.WriteLine("잘못입력하셨습니다. 1 ~ 9 사이의 숫자를 입력하세요.");
                     Console.WriteLine("ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ");
+                    goto restart;
                 }
 
                 // { 플레이어의 승리 조건
